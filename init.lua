@@ -1,7 +1,6 @@
 require("config.lazy")
 require("gelmi.set")
+require("gelmi.remap")
 vim.o.background = "dark" -- or "light" for light mode
 -- vim.cmd([[colorscheme gruvbox]])
 vim.cmd([[colorscheme oak]])
-vim.g.mapleader = " "
-vim.keymap.set("n" , "<leader>pv", vim.cmd.Ex)
